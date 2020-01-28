@@ -41,12 +41,12 @@ mysql> CREATE TABLE dimDate
 );
 ```
 
-### Step 3: Create `Customer` Dimension
+### Step 3: Create `Customer` Dimension (SCD Type-2)
 
 Run:
 
 ```sql
-mysql> CREATE TABLE dimCustomer (SCD Type-2)
+mysql> CREATE TABLE dimCustomer
 (
     customer_key int NOT NULL AUTO_INCREMENT,
     customer_id smallint(5) unsigned NOT NULL,
