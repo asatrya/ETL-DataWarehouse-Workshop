@@ -10,15 +10,15 @@ This workshop assumes you already have access to standard Sakila database schema
 
 1. Access to mysql client command line
    ```sql
-   mysql -u training -ptraining -h 35.240.238.96
+   mysql -u masvent -pmasvent -h [your-db-host]
    ```
-1. Create `sakila_dw` database
+1. Create `sakila_dw_[yourname]` database
    ```sql
-   mysql> create database sakila_dw;
+   mysql> create database sakila_dw_[yourname];
    ```
-1. Use `sakila_dw` database
+1. Use `sakila_dw_[yourname]` database
    ```sql
-   mysql> use sakila_dw;
+   mysql> use sakila_dw_[yourname];
    ```
 
 ### Step 2: Create `Date` Dimension
